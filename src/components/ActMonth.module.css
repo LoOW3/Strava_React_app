@@ -1,0 +1,14 @@
+.button{
+    cursor: hand;
+    cursor: pointer; 
+    width: 120px;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    transition: 0.5s;
+    border: none;
+    height: 30px;
+    
+}
+.button:hover{
+    transform: scale(1.1);
+}

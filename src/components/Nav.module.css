@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgb(255, 94, 0) 100%);
+    border-bottom: 2px solid linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgb(255, 94, 0) 100%); */
+    margin-bottom: 10px;
+    height: 40px;
+}
+.logo{
+    position: relative;
+    margin-right: 100px;
+    margin-left: 15px;
+
+   
+}
+.containerButtons{
+    display: flex;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 80%;
+}
+.recent{
+    margin-left: 10px;
+    margin-right: 30px;
+    text-decoration:none;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px; 
+    padding: 3px 3px 0px 3px;
+    border-radius: 2px;
+    width: 120px;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    transition: 0.5s;
+    border: none;
+    height: 22px;
+}
+.recent:hover{
+    background-color:rgb(255, 94, 0);
+    transform: scale(1.02);
+    
+    
+    
+}
+

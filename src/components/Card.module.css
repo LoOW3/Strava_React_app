@@ -1,0 +1,51 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-image: url('./img/backgroudBike.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.95;
+    border: 1px solid rgb(255, 94, 0);
+    height: 200px;
+    width: 1400px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: 0.9s;
+}
+.container:hover{
+    background-color: white;
+    transform: scale(1.005);
+}
+.containerData{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 700px;
+    
+    height: 120px;
+}
+.containerSingle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 2px solid rgb(255, 94, 0);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px 8px;
+    padding: 4px;
+}
+.name{
+    
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
