@@ -11,7 +11,7 @@ export default function Home(){
     const dispatch = useDispatch();
     const activities = useSelector(state => state.activities);
     const lastActivities = activities.slice(0,4);
-    console.log(lastActivities)
+    
     useEffect(() =>{
         dispatch(getActivities())
     },[dispatch])

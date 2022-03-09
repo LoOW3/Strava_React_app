@@ -46,23 +46,20 @@ export default function Home(){
         element.year = element.start_date_local.slice(0,4);
     });
     function handleSelectMonth1(){
-        console.log('handle', mesAnterior1)
         dispatch(getActivitiesMonth(mesAnterior1))
     }
     function handleSelectMonth2(){
-        console.log('handle', mesAnterior2)
         dispatch(getActivitiesMonth(mesAnterior2))
     }
     function handleSelectMonth3(){
-        console.log('handle', mesAnterior3)
         dispatch(getActivitiesMonth(mesAnterior3))
     }
     
     
     
-    const mesAnterior1 = activities.filter(a=> a.start_date_local.includes(mesAnterior(9)));
-    const mesAnterior2 = activities.filter(a=> a.start_date_local.includes(mesAnterior(10)));
-    const mesAnterior3 = activities.filter(a=> a.start_date_local.includes(mesAnterior(11)));
+    const mesAnterior1 = activities.filter(a=> a.start_date_local.includes(mesAnterior(9))); //Debería ser .includes(mesAnterior(1))
+    const mesAnterior2 = activities.filter(a=> a.start_date_local.includes(mesAnterior(10))); //Debería ser .includes(mesAnterior(2))
+    const mesAnterior3 = activities.filter(a=> a.start_date_local.includes(mesAnterior(11))); //Debería ser .includes(mesAnterior(3))
 
     useEffect(() =>{
         dispatch(getActivities())
