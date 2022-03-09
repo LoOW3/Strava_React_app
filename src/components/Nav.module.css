@@ -11,7 +11,7 @@
 .logo{
     position: relative;
     margin-right: 100px;
-    margin-left: 15px;
+    margin-left: 6%;
 
    
 }
@@ -19,7 +19,7 @@
     display: flex;
     /* border: 2px solid red; */
     position: absolute;
-    margin-left: 80%;
+    margin-left: 75%;
 }
 .recent{
     margin-left: 10px;
