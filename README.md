@@ -13,6 +13,8 @@ El las actividades por meses tuve que elegir en mi perfil tres meses consecutivo
 
 En el mismo archivo hay repetición de codigo en lo que se renderiza, me di cuenta como podría solucionarlo ya cuando empecé la parte de CSS y ya no hago tiempo de cambiarlo. Igualmente dejo mi idea aquí por si sirve de algo. Se me ocurre que podría guardar los meses anteriores dentro de un array y ya sí, con ese array hacer un mapeo de cada uno de los meses y mostrarlos, como está hecho con las 'actividades recientes'.
 
+Otra cosa que me gustaría agregar sería un tipo de imagen dependiendo el tipo de actividad. Da la casualidad que todas las actividades que tengo son de ciclismo, pero estaría bueno que dependiendo del tipo que te llegue del request tener un backgroud diferente.
+
 
 Hay cosas que pulir. El proyecto no está 100% terminado.
 
